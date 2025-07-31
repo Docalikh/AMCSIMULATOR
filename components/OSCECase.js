@@ -15,7 +15,7 @@ Once the candidate finishes, respond: "Thank you, doctor."`;
 
 export default function OSCECase() {
   const [readingTime, setReadingTime] = useState(10);
-  const [interactionTime, setInteractionTime] = useState(30);
+  const [interactionTime, setInteractionTime] = useState(120);
   const [stage, setStage] = useState('reading');
   const [messages, setMessages] = useState([
     { role: 'system', content: patientPrompt },
